@@ -1,0 +1,6 @@
+const messageFunction = (delay) => {
+  console.log("Hello after " + delay + " seconds");
+};
+
+setTimeout(messageFunction, 4 * 1000, 4);
+setTimeout(messageFunction, 8 * 1000, 8);
